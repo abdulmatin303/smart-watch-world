@@ -1,12 +1,12 @@
-# Project Name: Smart Watch
-### Project Live website: 
+#  Smart Watch.bd World
+### Project Live website: https://smart-watch-world.netlify.app/
 
-- products data generate in json file
-- load data 
-- show data in ui
-- add to cart button 
+- Products data generate in json file
+- Load data 
+- Show data in ui
+- Add to cart button 
 - show all item in cart
-- remove all item from cart
-- choose one for me from cart using Math.random()
-- destructuring use
+- Remove all item from cart
+- Choose one for me from cart using Math.random()
+- Destructuring use
 - Two question answer added
