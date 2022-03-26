@@ -10,6 +10,9 @@ const Shop = () => {
     //  use state for cart product
     const [cart, setCart] = useState([])
 
+      // choose one product state
+      const [chooseOne,setChooseOne]= useState('')
+
     // handleAddProduct function 
     const handleAddProduct = (product) => {
         const newCart = [...cart, product]
@@ -20,6 +23,15 @@ const Shop = () => {
     const handleCart = () => {
         // console.log("cart is empty");
         setCart([]);
+
+    }
+
+
+    // handle Choose function 
+    const handleChoose = () => {
+        const cartValue= Math.floor((Math.random() * cart.length))+1;
+        console.log(cartValue);
+        setChooseOne(cartValue)
 
     }
 
@@ -50,7 +62,9 @@ const Shop = () => {
                 {/* taking 3 column for show calculation  */}
                 <div className="col-md-3">
                     <Cart cart={cart}
-                    handleCart={handleCart}></Cart>
+                    handleCart={handleCart}
+                    handleChoose={handleChoose}
+                    chooseOne={chooseOne}></Cart>
                 </div>
             </div>
         </div>

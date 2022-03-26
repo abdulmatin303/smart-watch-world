@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='container mx-auto mt-4'>
             <h2 className='text-warning'>ReactJS<span className='text-secondary'> Question</span></h2>
-           <div className='border rounded'>
+           <div className='border rounded mt-4'>
                <h4 className='text-center mt-2'>How React works?</h4>
                <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis suscipit sint ducimus, magnam corrupti maxime alias, dicta quo reiciendis quos totam in numquam molestias nam nisi voluptatem iure, odio rerum.</p>
            </div>
