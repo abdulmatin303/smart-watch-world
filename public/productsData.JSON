@@ -1,0 +1,110 @@
+[
+    {
+        "key": "1",
+        "name": "Donerton Smart Watch",
+        "category": "watch",
+        "price": 9700,
+        "stock": 33,
+        "seller": "Amazon",
+        "img": "https://m.media-amazon.com/images/I/61sWtUsCuZL._AC_SX425_.jpg"
+    },
+    {
+        "key": "2",
+        "name": "Garmin 010-02173-11 Venu",
+        "category": "watch",
+        "price": 4470,
+        "stock": 3,
+        "seller": "Amazon",
+        "img": "https://m.media-amazon.com/images/I/51kyjYuOZhL._AC_SX679_.jpg"
+    },
+    {
+        "key": "3",
+        "name": "Amazfit GTS 2 Mini",
+        "category": "watch",
+        "price": 7210,
+        "stock": 25,
+        "seller": "Amazon",
+        "img": "https://m.media-amazon.com/images/I/61dHtJrlcOL._AC_SX679_.jpg"
+    },
+    {
+        "key": "4",
+        "name": "Fitbit Versa 2",
+        "category": "watch",
+        "price": 5132,
+        "stock": 17,
+        "seller": "Amazon",
+        "img": "https://m.media-amazon.com/images/I/61L5Jko2QqL._AC_SX569_.jpg"
+    },
+    {
+        "key": "5",
+        "name": "HAFURY Android",
+        "category": "watch",
+        "price": 9130,
+        "stock": 41,
+        "seller": "Amazon",
+        "img": "https://m.media-amazon.com/images/I/61ISEH7-4CS._AC_SX425_.jpg"
+    },
+    {
+        "key": "6",
+        "name": "Garmin Venu Sq",
+        "category": "watch",
+        "price": 7270,
+        "stock": 23,
+        "seller": "Amazon",
+        "img": "https://m.media-amazon.com/images/I/61XVr-6oazL._AC_SX679_.jpg"
+    },
+    {
+        "key": "7",
+        "name": "Amazfit Bip U Pro",
+        "category": "watch",
+        "price": 6310,
+        "stock": 125,
+        "seller": "Amazon",
+        "img": "https://m.media-amazon.com/images/I/61brDD8JILL._AC_SX679_.jpg"
+    },
+    {
+        "key": "8",
+        "name": "Fitbit Sense Advanced",
+        "category": "watch",
+        "price": 7332,
+        "stock": 27,
+        "seller": "Amazon",
+        "img": "https://m.media-amazon.com/images/I/71G5Dz-lUDL._AC_SX569_.jpg"
+    },
+    {
+        "key": "9",
+        "name": "Amazfit GTS 2e",
+        "category": "watch",
+        "price": 5383,
+        "stock": 41,
+        "seller": "Amazon",
+        "img": "https://m.media-amazon.com/images/I/61ujDzowePL._AC_SX679_.jpg"
+    },
+    {
+        "key": "10",
+        "name": "Amazfit T-Rex Pro",
+        "category": "watch",
+        "price": 2925,
+        "stock": 31,
+        "seller": "Amazon",
+        "img": "https://m.media-amazon.com/images/I/71wEafzfHhL._AC_SX679_.jpg"
+    },
+    {
+        "key": "11",
+        "name": "Apple Watch SE",
+        "category": "watch",
+        "price": 3840,
+        "stock": 71,
+        "seller": "Amazon",
+        "img": "https://m.media-amazon.com/images/I/713BLl3u37L._AC_SX466_.jpg"
+    },
+    {
+        "key": "12",
+        "name": "Amazfit GTR",
+        "category": "watch",
+        "price": 4525,
+        "stock": 61,
+        "seller": "Amazon",
+        "img": "https://m.media-amazon.com/images/I/71lCwsd-XlL._AC_SX679_.jpg"
+    }
+]
