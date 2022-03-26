@@ -16,6 +16,13 @@ const Shop = () => {
         setCart(newCart);
     }
 
+    // handleAddProduct function 
+    const handleCart = () => {
+        // console.log("cart is empty");
+        setCart([]);
+
+    }
+
    
 
     // fatch data using useeffect 
@@ -42,7 +49,8 @@ const Shop = () => {
 
                 {/* taking 3 column for show calculation  */}
                 <div className="col-md-3">
-                    <Cart cart={cart}></Cart>
+                    <Cart cart={cart}
+                    handleCart={handleCart}></Cart>
                 </div>
             </div>
         </div>

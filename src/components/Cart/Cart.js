@@ -30,7 +30,7 @@ const Cart = (props) => {
 
                 {/* remove item button  */}
 
-            <button onClick={() => props.removeItem()} className='btn btn-danger mt-1'><i className="fas fa-shopping-cart"></i> Remove Item</button>
+            <button onClick={() => props.handleCart()} className='btn btn-danger mt-1'><i className="fas fa-shopping-cart"></i> Remove Item</button>
 
         </div>
     );
