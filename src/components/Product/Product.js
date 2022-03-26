@@ -8,8 +8,8 @@ const Product = (props) => {
     // console.log(props.product);
     return (
         // show cart 
-       <div className="col-md-4 mt-4">
-           <div>
+       <div className="col-md-4 mt-4 shadow">
+           <div className='mt-2'>
            <img className="card-img-top" src={img} alt="Card image cap"/>
 
            </div>
@@ -17,6 +17,7 @@ const Product = (props) => {
                 <h5 className="card-title fw-bold">{name}</h5>
                 <br />
                 <span className='fw-bold'>Price: </span>${price}
+                <br/>
                 <br/>
                            
                 <button onClick={() => props.handleAddProduct(props.product)} className='btn btn-success'><i className="fas fa-shopping-cart"></i> Buy Now</button>

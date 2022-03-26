@@ -8,7 +8,7 @@ const Cart = (props) => {
     // console.log(Cart);
     return (
          
-        <div className="card bg-secondary mt-3 mb-3 p-2" style={{ "maxWidth": "18rem" }}>
+        <div className="card bg-secondary mt-4 fixed" style={{ "maxWidth": "18rem" }}>
             <div className="card-header"><h3>Selected Items</h3></div>
 
             <ul>

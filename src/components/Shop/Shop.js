@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
+import './Shop.css';
 
 const Shop = () => {
     // use state 
@@ -45,10 +46,10 @@ const Shop = () => {
     }, [])
 
     return (
-        <div className='container mx-auto'>
+        <div className='container'>
             <div className="row">
                 {/* taking 9 column for show product  */}
-                <div className="col-md-9">
+                <div className="col-md-9 mb-4">
                     <div className="row">
                         {
                             products.map(product => <Product product={product}
@@ -60,7 +61,7 @@ const Shop = () => {
                 </div>
 
                 {/* taking 3 column for show calculation  */}
-                <div className="col-md-3">
+                <div className="col-md-3 sidebar">
                     <Cart cart={cart}
                     handleCart={handleCart}
                     handleChoose={handleChoose}
